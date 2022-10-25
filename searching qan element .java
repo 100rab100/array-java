@@ -1,8 +1,16 @@
 
+     
+public class first
+{
+
+    public static void main(String[] args)
+    {
+        int A[]={1,2,3,4,56,7,8};
         System.out.println("Eneter a Key " );
-        key=sc.nextInt();
-        
-        
+        Scanner t=new Scanner(System.in);
+       int key=t.nextInt();
+
+
         for(int i=0;i<A.length;i++)
         {
             if(key==A[i])
@@ -12,3 +20,6 @@
             }
         }
         System.out.println("Not found");
+
+    }
+}
