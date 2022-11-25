@@ -19,3 +19,5 @@
         System.out.println("");
     }   
 }
+//
+right rotation
